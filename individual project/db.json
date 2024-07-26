@@ -1,0 +1,48 @@
+{
+	"songs":{
+		"pop":{
+			"song1":{
+				"name":"play bubble pop electric - Marina and the diamonds",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/hi.mp3?alt=media&token=20984004-7857-4b64-8b8d-ab6a1838df3a"
+			},
+			"song2":
+			{
+				"name":"play S&M - rihanna",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/S%26M.mp3?alt=media&token=2317bcc6-1bf0-4854-a74f-34441f0c6f70"
+			}
+		},
+		"jazz":{
+			"song1":{
+				"name":"play, \"Take 5 - Dave Brubeck\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/t5.mp3?alt=media&token=0eb3fa91-ab0b-4ca2-9811-c4cc1cb1a4ea"
+			},
+			"song2":
+			{
+				"name":"play \"Chase The Stars - Solene\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/cts.mp3?alt=media&token=3e51d3c6-0af3-4d7d-8071-a4b5841a52df"
+			}
+		},
+		"rock":{
+			"song1":{
+				"name":"play, \"BxMxC - BABYMETAL\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/bmc.mp3?alt=media&token=f6cb9d99-2b58-48d8-a145-78250b86a3a9"
+			},
+			"song2":
+			{
+				"name":"play, \"let it be - the Beatles\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/lib.mp3?alt=media&token=84077b13-cdfc-46d4-a534-66d86fbecd46"
+			}
+		},
+		"indie":{
+			"song1":{
+				"name":"play, \"I Wanna Be Yours - Arctic Monkeys\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/iwby.mp3?alt=media&token=9e270c4b-2dd1-485a-957e-b79bee1df841"
+			},
+			"song2":
+			{
+				"name":"play, \"Blondie - Current Joys\"",
+				"source":"https://firebasestorage.googleapis.com/v0/b/indivproject-4c0e8.appspot.com/o/b.mp3?alt=media&token=036ee3f4-f1f7-4bbe-993f-3a55d73be87d"
+			}
+		}
+	}
+}

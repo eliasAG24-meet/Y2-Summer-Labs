@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="music.js"></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<h1>{{genre}}</h1>
+
+	{%for song in songs_dict%}
+		<h1>{{songs_dict[song]['name']}}</h1>
+		<audio controls>
+		<source src="{{songs_dict[song]['source']}}" type="audio/mpeg">
+		</audio>
+	{%endfor%}
+	<a href="/home">Home</a>
+
+	<form action="/songs/{{genre}}" method="POST">
+		<input type="text" name="name" placeholder="Write your review">
+		<!-- <input type="file" name="file"> -->
+		<input type="submit" value="submit">
+	</form>
+	<a href="/review/{{genre}}">reviews</a>
+<!-- 
+
+      <div class="container" style="text-align: center;">
+        <div class="display">
+
+        </div>
+
+        <div class="controllers">
+
+        </div>
+      </div>
+ -->
+</body>
+</html>
